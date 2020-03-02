@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id='body'>
+   <div class="container">
+       <div class="palette-buttons" id="controlButtons">
+           <button class="palette palette-one" id="paletteOne">
+            Palette 1
+           </button>
+           <button class="palette palette-two" id="paletteTwo">
+            Palette 2
+           </button>
+        <button class="palette palette-three" id="paletteThree">
+            Palette 3 
+        </button>
+       </div>
+    <form id="form" class="form"> <!--Id is used for grabbing onto things(js) and class is used for styling(css) -->
+    <h2>Register With Us</h2>
+    <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder = "Enter your username">
+        <small>Error Message</small>
+    </div>
+    <div class="form-control">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder = "Enter your Email">
+        <small>Error Message</small>
+    </div>
+    <div class="form-control">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phoneNumber" placeholder = "Enter your Number">
+        <small>Error Message</small>
+    </div>
+    <div class="form-control">
+        <label for="zip">Zip</label>
+        <input type="text" id="zip" placeholder = "Enter your zip">
+        <small>Error Message</small>
+    </div>
+    <div class="form-control">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder = "Enter your password">
+        <small>Error Message</small>
+    </div>
+    <div class="form-control">
+        <label for="password2">Confirm Password</label>
+        <input type="password" id="password2" placeholder = "Confirm password">
+        <small>Error Message</small>
+    </div>
+    <button id="submitBtn">Submit</button>
+    </form> 
+
+   </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
