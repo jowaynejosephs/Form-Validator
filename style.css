@@ -3,7 +3,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #ededed;
+  /*background-color:$body-color-2;*/
+  background: #f35588;
   font-family: 'Lato', sans-serif;
   display: flex;
   justify-content: center;
@@ -34,11 +35,11 @@ body {
 h2 {
   text-align: center;
   margin: 0 0 20px;
-  color: #ff5151; }
+  color: black; }
 
 .form {
   padding: 30px 40px;
-  background: #ffa41b; }
+  background: #05dfd7; }
   .form .form-control {
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -49,7 +50,7 @@ h2 {
     display: block;
     margin-bottom: 5px; }
   .form .form-control input {
-    border: 2px solid #f0f0f0;
+    border: 2px solid black;
     border-radius: 4px;
     display: block;
     width: 100%;
@@ -71,10 +72,10 @@ h2 {
     visibility: visible; }
   .form button {
     cursor: pointer;
-    background-color: #9818d6;
+    background-color: #fff591;
     border: 2px solid #3498db;
     border-radius: 4px;
-    color: #fff;
+    color: black;
     font-size: 16px;
     padding: 10px;
     margin-top: 20px;

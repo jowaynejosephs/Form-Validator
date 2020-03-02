@@ -198,10 +198,12 @@ const checkPassWord = (input1, input2) =>{
         showSuccess(input1)
 }
 
-//Event Listener
+//Event Listeners
+
+
 form.addEventListener('submit', function(e){
     e.preventDefault()
-    checkRequired([username, email, password, password2])
+    checkRequired([username, email, password, password2])&&
     checkLength(username, 3, 15)
     checkLength(password, 3, 25)
     checkEmail(email)
@@ -233,5 +235,9 @@ paletteThree.addEventListener('click', function(e){
     heading[0].style.color = '#586ba4'
     submitBtn.style.backgroundColor= '#324376'
 })
+
+
+
+
 
 

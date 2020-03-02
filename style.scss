@@ -12,7 +12,8 @@ $error: red;
 }
 
 body{
-    background-color:$body-color-2;
+    /*background-color:$body-color-2;*/
+    background:#f35588;
     font-family: 'Lato', sans-serif;
     display:flex;
     justify-content:center;
@@ -49,12 +50,12 @@ body{
 h2{                        
     text-align:center;
     margin: 0 0 20px;
-    color:$h2-color-2;
+    color:black;
 }
 
 .form{
     padding: 30px 40px;
-    background:$form-background-2;
+    background:#05dfd7;
     .form-control{
         margin-bottom:10px;
         padding-bottom:10px;
@@ -69,7 +70,7 @@ h2{
     }
 
     .form-control input {
-        border: 2px solid #f0f0f0;
+        border: 2px solid black;
         border-radius:4px;
         display:block;
         width:100%;
@@ -104,10 +105,10 @@ h2{
 
     button{
         cursor:pointer;
-        background-color:$button-backgroundColor-2;
+        background-color:#fff591;
         border:2px solid #3498db;
         border-radius:4px;
-        color:#fff;
+        color:black;
         font-size:16px;
         padding:10px;
         margin-top:20px;
